@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "piroken refiner"
+description: "refines piroken to be melted"
+category: "crafting"
+size: 1
+health: 40
+itemCapacity: 20
+menu: simple
+requirements: [
+pk/3
+tz/1
+]
+craftTime: 150
+consumes: {
+items: [
+pk/4
+]
+power: 0.05
+}
+outputItem: refi-pk/1
+research: {
+  planet: 1-1-kooper
+  parent: escape-pod
+  requirements: [
+  pk/100
+  ]
+  objectives: [
+    {
+     type: SectorComplete
+     preset: they noticed
+    }
+  ]
+}
