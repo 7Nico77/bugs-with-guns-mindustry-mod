@@ -1,0 +1,11 @@
+sector: 0
+planet: 1-1-kooper
+captureWave: 0
+difficulty: 0
+alwaysUnlocked: true
+research: {
+    root: false
+    name: NMOD
+    planet: 1-1-kooper
+    parent: escape-pod
+}
