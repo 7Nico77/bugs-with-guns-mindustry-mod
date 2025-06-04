@@ -1,0 +1,17 @@
+type: PowerNode
+category: power
+description: "transports power."
+maxNodes: 5
+laserRange: 10
+health: 20
+requirements: [
+refi-pk/1
+tz/1
+]
+research: {
+  planet: 1-1-kooper
+  parent: burner-gen
+  requirements: [
+  refi-pk/5
+  ]
+    }
