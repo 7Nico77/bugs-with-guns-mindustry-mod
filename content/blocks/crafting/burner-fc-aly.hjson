@@ -13,7 +13,7 @@ craftTime: 1000
 consumes: {
 items: [
 pk/30
-tz/500
+tz/50
 ]
 }
 outputItem: fc/1
