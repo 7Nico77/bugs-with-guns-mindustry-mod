@@ -1,0 +1,16 @@
+type: Conduit
+name: "pipe"
+health: 10
+liquidCapacity: 15
+squareSprite: false
+requirements: [
+ refi-pk/1
+]
+category: "liquid"
+research: {
+  planet: 1-1-kooper
+  parent: pk-melt
+  requirements: [
+    refi-pk/6
+  ]
+}
