@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "piroken ammo former"
+description: "forms molten piroken into ammo"
+category: "crafting"
+size: 2
+health: 60
+itemCapacity: 25
+liquidCapacity: 1
+menu: simple
+requirements: [
+refi-pk/10
+]
+craftTime: 200
+consumes: {
+liquids: [
+molt-pk/2
+]
+power: 0.05
+}
+outputItem: pk-am/1
+research: {
+  planet: 1-1-kooper
+  parent: pk-melt
+  requirements: [
+    refi-pk/5
+  ]
+}
