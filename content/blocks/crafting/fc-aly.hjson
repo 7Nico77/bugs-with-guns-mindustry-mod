@@ -21,9 +21,9 @@ power: 0.1
 outputItem: fc/2
 research: {
   planet: 1-1-kooper
-  parent: pk-melt
+  parent: burner-fc-aly
   requirements: [
-    refi-pk/5
+    pk-plate/5
     fc/5
   ]
 }
