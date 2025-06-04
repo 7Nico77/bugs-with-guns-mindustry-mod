@@ -41,7 +41,7 @@ inaccuracy: 10
 }
 research: {
   planet: 1-1-kooper
-  parent: burner-trt
+  parent: escape-pod
   requirements: [
     pk/100
   ]
