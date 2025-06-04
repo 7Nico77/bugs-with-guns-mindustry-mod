@@ -1,0 +1,39 @@
+type: "ItemTurret"
+name: "burner turret"
+category: "turret",
+size: 1
+shootY: 10
+requirements: [ 
+pk/80
+]
+itemCapacity: 10
+range: 100
+reload: 30
+health: 60
+outlineRadius: 0
+targetsAir: false
+ammoTypes: {
+pk: {
+ammoMultiplier: 2,
+damage: 5,
+height: 9,
+speed: 2,
+width: 7,
+lifetime: 100,
+},
+refi-pk: {
+ammoMultiplier: 10,
+damage: 10,
+height: 9,
+speed: 4,
+width: 7,
+lifetime: 200,
+}
+}
+research: {
+  planet: 1-1-kooper
+  parent: escape-pod
+  requirements: [
+    pk/100
+  ]
+}
