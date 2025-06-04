@@ -5,11 +5,8 @@ category: "turret"
 size: 1
 shootY: 10
 requirements: [ 
-pk-plate/4
+pk/150
 ]
-consumes: {
-power: 0.02
-}
 itemCapacity: 10
 range: 50
 reload: 40
@@ -23,9 +20,18 @@ type: ShootSpread
     shots: 4
 }
 ammoTypes: {
+pk: {
+ammoMultiplier: 1
+damage: 1
+height: 9
+speed: 2
+width: 3
+lifetime: 20
+inaccuracy: 20
+}
 pk-am: {
-ammoMultiplier: 2
-damage: 4
+ammoMultiplier: 1
+damage: 3
 height: 9
 speed: 4
 width: 3
