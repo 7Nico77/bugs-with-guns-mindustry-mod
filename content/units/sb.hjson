@@ -1,0 +1,51 @@
+type: mech
+name: small bug
+description: small bug.... WITH GUN!!!
+omniMovement: true
+faceTarget: true
+outlineColor: 8E665CFF
+speed: 1.2
+rotateSpeed: 1
+groundLayer: 60
+health: 15
+armor: 0
+hitSize: 10
+outlineRadius: 0.1
+itemCapacity: 1
+weapons: [
+ {
+  name: sb-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: blaster
+  inaccuracy: 50
+  reload: 35
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 9
+   height: 9
+   damage: 1
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   splashDamage: 1
+   splashDamageRadius: 20
+   speed: 7
+   lifetime: 20
+   trailWidth: 1
+   trailLength: 8
+   frontColor: ff0000
+   backColor: ff0000
+   trailColor: fffeb5 
+   }
+  }
+]
