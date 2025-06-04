@@ -1,0 +1,5 @@
+name: "piroken ammo"
+research: {
+  planet: 1-1-kooper
+  parent: refi-pk
+}
