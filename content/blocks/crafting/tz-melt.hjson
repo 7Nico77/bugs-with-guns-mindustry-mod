@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "tepzel melter"
+description: "melts tepzel to be turned into an alloy"
+category: "crafting"
+size: 2
+health: 60
+itemCapacity: 20
+hasLiquids: true
+liquidCapacity: 2
+outputLiquid: molt-tz/2
+menu: simple
+requirements: [
+refi-pk/15
+]
+craftTime: 200
+consumes: {
+items: [
+tz/2
+]
+power: 0.1
+}
+research: {
+  planet: 1-1-kooper
+  parent: pk-refine
+  requirements: [
+  refi-pk/10
+  ]
+    }
