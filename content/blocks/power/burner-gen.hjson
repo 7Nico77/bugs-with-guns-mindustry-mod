@@ -1,0 +1,25 @@
+type: ConsumeGenerator
+category: "power"
+name: "burner generator"
+description: "temporary generator"
+size: 1
+health: 60
+powerProduction: 0.1
+consumes: {
+items: [
+md/2
+]
+}
+powerCapacity: 1
+itemCapacity: 60
+productionTime: 500
+requirements: [
+pk/75
+]
+research: {
+  planet: 1-1-kooper
+  parent: escape-pod
+  requirements: [
+  pk/100
+  ]
+}
