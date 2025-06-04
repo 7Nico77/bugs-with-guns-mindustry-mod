@@ -1,4 +1,4 @@
-type: wall
+type: Wall
 health: 40
 name: "piroken wall"
 category: "defense"
@@ -9,7 +9,4 @@ research: {
     planet: 1-1-kooper
     alwaysUnlocked: true
     parent: escape-pod
-    requirements: [
-    pk/50
-    ]
 } 
