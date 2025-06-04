@@ -8,7 +8,7 @@ itemCapacity: 20
 menu: simple
 requirements: [
 pk/3
-tz/1
+fc/1
 ]
 craftTime: 150
 consumes: {
