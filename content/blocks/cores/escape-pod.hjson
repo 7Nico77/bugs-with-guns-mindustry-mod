@@ -1,0 +1,17 @@
+type: CoreBlock
+category: effect
+health: 1000
+size: 3
+itemCapacity: 200
+unitCapModifier: 15
+unitType: "building-drone"
+incinerateNonBuildable: false
+isFirstTier: true
+requirements: [
+pk/100
+]
+alwaysUnlocked: true
+research: {
+  planet: 1-1-kooper
+  root: true
+}
