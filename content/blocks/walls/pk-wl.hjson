@@ -7,9 +7,8 @@ pk/6
 ]
 research: {
     root: false
-    name: NMOD
     planet: 1-1-kooper
-    parent: grinder
+    parent: escape-pod
     requirements: [
     pk/50
     ]
