@@ -1,3 +1,5 @@
+# DO NOT PLAY THE CAMPAIGN RIGHT NOW
+you can play the first level but the second one will crash your game
 # oh fuck the bugs have guns
 uh oh spaghettio!!!
 
