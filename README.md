@@ -1,9 +1,12 @@
 # oh fuck the bugs have guns
 uh oh spaghettio!!!
+
 you are a building drone that was on a cargo ship that went boom
 for some reason you get on a escape pod and leave despite just being a building drone
+
 the ship contained a lot of guns
 the bugs of the planet have guns now
+
 run
 # manufacture
 DO THINGS SUCH AS
