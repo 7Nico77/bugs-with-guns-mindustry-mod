@@ -1,0 +1,52 @@
+type: mech
+name: tortel
+description: uses the shield on the back to protect itself, and uses a far reaching cannon
+omniMovement: true
+faceTarget: true
+outlineColor: 8E665CFF
+speed: 0.4
+rotateSpeed: 1
+groundLayer: 60
+health: 10
+armor: 15
+hitSize: 15
+outlineRadius: 0.1
+itemCapacity: 4
+weapons: [
+ {
+  name: tl-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  range: 400
+  shootSound: mediumCannon
+  inaccuracy: 2
+  reload: 300
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 150
+  bullet: {
+   type: BasicBulletType
+   width: 9
+   height: 9
+   damage: 30
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   splashDamage: 2
+   splashDamageRadius: 40
+   speed: 4
+   lifetime: 200
+   trailWidth: 1
+   trailLength: 10
+   frontColor: ffffff
+   backColor: ffffff
+   trailColor: ff0000
+   }
+  }
+]
