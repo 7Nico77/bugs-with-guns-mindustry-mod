@@ -1,0 +1,20 @@
+type: drill
+category: production
+tier: 1
+size: 2
+itemCapacity: 5
+drillTime: 1500
+buildTime: 30
+health: 20
+name: "burner drill"
+description: "lol factorio uhhh anyway a drill used for automation early on"
+requirements: [
+pk/60
+]
+research: {
+  planet: 1-1-kooper
+  parent: escape-pod
+  requirements: [
+    pk/100
+  ]
+}
