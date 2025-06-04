@@ -1,0 +1,16 @@
+type: "junction",
+name: "junction"
+category: "distribution",
+health: 10,
+speed: 0.02,
+displayedSpeed: 0.5,
+requirements: [
+refi-pk/2
+]
+research: {
+  planet: 1-1-kooper
+  parent: conveyor
+  requirements: [
+    refi-pk/5
+  ]
+    }
