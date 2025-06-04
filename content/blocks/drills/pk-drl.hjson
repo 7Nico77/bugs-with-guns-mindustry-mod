@@ -1,0 +1,23 @@
+type: drill
+category: production
+tier: 2
+size: 2
+itemCapacity: 20
+drillTime: 250
+buildTime: 100
+health: 60
+name: "piroken drill"
+description: "its a drill it drills things"
+requirements: [
+pk-plate/10
+]
+consumes: {
+power: 0.05
+}
+research: {
+  planet: 1-1-kooper
+  parent: burner-drl
+  requirements: [
+    pk/100
+  ]
+    }
