@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "burner folcel alloyer"
+description: "inefficiently makes folcel alloys"
+category: "crafting"
+size: 1
+health: 40
+itemCapacity: 60
+menu: simple
+requirements: [
+pk/100
+]
+craftTime: 1000
+consumes: {
+items: [
+pk/30
+tz/60
+]
+power: 0.1
+}
+outputItem: fc/1
+research: {
+  planet: 1-1-kooper
+  parent: pk-melt
+  requirements: [
+    refi-pk/5
+  ]
+}
