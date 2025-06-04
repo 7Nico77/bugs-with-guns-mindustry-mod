@@ -1,0 +1,14 @@
+sector: 1
+planet: 1-1-kooper
+captureWave: 7
+difficulty: 0
+research: {
+    root: false
+    name: NMOD
+    planet: 1-1-kooper
+    parent: beginning
+    requirements: [
+        pk/50
+        md/50
+    ]
+      }
