@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "folcel alloyer"
+description: "makes folcel alloys"
+category: "crafting"
+size: 2
+health: 60
+liquidCapacity: 20
+itemCapacity: 10
+menu: simple
+requirements: [
+pk-plate/10
+]
+craftTime: 150
+consumes: {
+liquids: [
+molt-pk/5
+molt-tz/10
+]
+power: 0.1
+}
+outputItem: fc/2
+research: {
+  planet: 1-1-kooper
+  parent: pk-melt
+  requirements: [
+    refi-pk/5
+    fc/5
+  ]
+}
