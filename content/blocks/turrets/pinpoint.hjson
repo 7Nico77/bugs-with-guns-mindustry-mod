@@ -35,6 +35,12 @@ collidesAir: true
 collidesGround: true
 collideTerrain: false
 }
+shoot: {
+type: ShootSpread
+  spread: 0
+    shots: 4
+    shotDelay: 2
+}
 research: {
   planet: 1-1-kooper
   parent: burner-trt
