@@ -1,0 +1,60 @@
+name: Building drone
+description: you
+type: payload
+flying: true
+health: 20
+armor: 1
+hitSize: 9
+
+controller: BuilderAI
+isEnemy: false
+mineWalls: true
+mineFloor: true
+buildSpeed: 1
+itemCapacity: 60
+mineWalls: true
+mineFloor: true
+
+speed: 10
+accel: 0.02
+drag: 0.1
+mineSpeed: 12
+mineTier: 1
+rotateSpeed: 12
+
+crashDamageMultiplier: 1
+hittable: true
+targetable: true
+fogRadius: 0
+coreUnitDock: true
+outlineColor: 8E665CFFf
+
+payloadCapacity: 60
+pickupUnits: true
+vulnerableWithPayloads: false
+
+weapons: [
+    {
+        type: RepairBeamWeapon
+        name: "bd-repair"
+		widthSinMag: 0.1
+        x: 0
+        y: -2
+        mirror: false
+        shootY: 0
+		beamWidth: 0.5
+        repairSpeed: 1
+        fractionRepairSpeed: 0.05
+        shootCone: 15
+		
+        targetUnits: false
+        targetBuildings: true
+        autoTarget: false
+        controllable: true
+        laserColor: FFD380FF
+        healColor: FF9C59FF
+		bullet: {
+		    maxRange: 70
+		}
+    }
+]
