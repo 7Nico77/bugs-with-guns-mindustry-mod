@@ -1,0 +1,12 @@
+type: CellLiquid
+name: "molten piroken"
+description: "melted piroken to be formed"
+temperature: 5
+coolant: false
+color: ebd63b
+colorFrom: ebd63b
+colorTo: ebd63b
+explosiveness: 0
+flammability: 0
+incinerable: false
+viscosity: 0.5
