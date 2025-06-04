@@ -15,6 +15,7 @@ itemCapacity: 60
 productionTime: 500
 requirements: [
 pk/75
+fc/2
 ]
 research: {
   planet: 1-1-kooper
