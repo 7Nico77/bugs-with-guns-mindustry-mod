@@ -1,0 +1,21 @@
+type: BeamDrill
+category: production
+tier: 2
+size: 1
+range: 1
+itemCapacity: 10
+drillTime: 1000
+buildTime: 30
+health: 20
+name: "burner wall drill"
+description: "used for mining tepzel"
+requirements: [
+pk/120
+]
+research: {
+  planet: 1-1-kooper
+  parent: burner-drl
+  requirements: [
+    pk/100
+  ]
+  }
