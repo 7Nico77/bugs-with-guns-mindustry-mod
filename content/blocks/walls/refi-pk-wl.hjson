@@ -1,0 +1,16 @@
+type: wall
+health: 100
+name: "refined piroken wall"
+category: "defense"
+requirements: [
+refi-pk/1
+]
+research: {
+    root: false
+    name: NMOD
+    planet: 1-1-kooper
+    parent: pk-wl
+    requirements: [
+    pk-plate/10
+    ]
+} 
