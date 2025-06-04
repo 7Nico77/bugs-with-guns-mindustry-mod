@@ -1,0 +1,7 @@
+name: "bwg"
+displayName: "bugs with guns"
+author: Nico
+description: "run"
+version: "0"
+minGameVersion: "146"
+hidden: false
