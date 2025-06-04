@@ -1,0 +1,8 @@
+name: "refined piroken"
+research: {
+  planet: 1-1-kooper
+  parent: pk
+  requirements: [
+   pk/400
+  ]
+}
