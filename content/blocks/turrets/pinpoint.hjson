@@ -1,0 +1,44 @@
+type: "PowerTurret"
+name: "pinpoint"
+description: "hits targets from far away with PINPOINT accuracy!!!! im so funny!!! also long reload time"
+category: "turret"
+size: 2
+shootY: 10
+requirements: [ 
+pk-plate/10
+fc/10
+]
+consumes: {
+power: 0.5
+}
+itemCapacity: 10
+range: 600
+reload: 200
+recoil: 5
+health: 60
+outlineRadius: 0
+targetsAir: true
+shootSound: railgun
+shootType: {
+type: MissileBulletType
+speed: 15
+damage: 20
+height: 6
+width: 6
+lifetime: 400
+trailWidth: 2
+trailLength: 5
+frontColor: ffffff
+backColor: 34d5eb
+trailColor: 34d5eb
+collidesAir: true
+collidesGround: true
+collideTerrain: false
+}
+research: {
+  planet: 1-1-kooper
+  parent: burner-trt
+  requirements: [
+    pk/100
+  ]
+}
