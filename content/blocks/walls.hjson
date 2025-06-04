@@ -1,0 +1,8 @@
+type: wall
+health: 10
+name: "bug nest"
+description: "marks the locations where bugs will spawn"
+category: "defense"
+requirements: [
+  md/10
+]
