@@ -1,0 +1,6 @@
+name: "tepzel"
+hardness: 2
+research: {
+  planet: 1-1-kooper
+  parent: escape-pod
+}
