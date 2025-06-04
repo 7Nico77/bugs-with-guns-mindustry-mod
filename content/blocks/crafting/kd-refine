@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "kordel refinery"
+description: "refines mordel into kordel, a fuel source"
+category: "crafting"
+size: 1
+health: 40
+itemCapacity: 20
+menu: simple
+requirements: [
+pk/50
+]
+craftTime: 75
+consumes: {
+items: [
+md/4
+]
+power: 0.05
+}
+outputItem: kd/1
+research: {
+  planet: 1-1-kooper
+  parent: burner-gen
+  requirements: [
+  refi-pk/2
+  fc/1
+  ]
+}
