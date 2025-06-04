@@ -7,6 +7,8 @@ pk/6
 ]
 research: {
     planet: 1-1-kooper
-    alwaysUnlocked: true
     parent: escape-pod
+    requirements: [
+    pk/100
+    ]
 } 
