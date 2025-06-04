@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "piroken plate former"
+description: "forms molten piroken into plates"
+category: "crafting"
+size: 1
+health: 60
+itemCapacity: 20
+liquidCapacity: 15
+menu: simple
+requirements: [
+refi-pk/10
+]
+craftTime: 600
+consumes: {
+liquids: [
+molt-pk/5
+]
+power: 0.05
+}
+outputItem: pk-plate/1
+research: {
+  planet: 1-1-kooper
+  parent: pk-melt
+  requirements: [
+    refi-pk/5
+  ]
+    }
