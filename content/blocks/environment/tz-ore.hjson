@@ -1,0 +1,6 @@
+type: OreBlock
+variants: 2
+itemDrop: "tz"
+name: "tepzel ore"
+hasShadow: false
+wallOre: true
