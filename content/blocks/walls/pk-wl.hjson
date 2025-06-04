@@ -1,0 +1,16 @@
+type: wall
+health: 40
+name: "piroken wall"
+category: "defense"
+requirements: [
+pk/6
+]
+research: {
+    root: false
+    name: NMOD
+    planet: 1-1-kooper
+    parent: burner-trt
+    requirements: [
+    pk/50
+    ]
+} 
