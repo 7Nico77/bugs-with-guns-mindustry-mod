@@ -1,0 +1,20 @@
+type: Battery
+name: "piroken battery"
+description: "it stores power"
+category: "power"
+size: 1
+health: 80
+consumes: {
+  powerBuffered: 600
+}
+requirements: [
+ pk-plate/5
+ fc/15
+]
+research: {
+  planet: 1-1-kooper
+  parent: burner-gen
+  requirements: [
+  pk-plate/2
+  ]
+    }
