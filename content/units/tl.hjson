@@ -7,8 +7,8 @@ outlineColor: 8E665CFF
 speed: 0.4
 rotateSpeed: 1
 groundLayer: 60
-health: 10
-armor: 15
+health: 30
+armor: 0
 hitSize: 15
 outlineRadius: 0.1
 itemCapacity: 4
