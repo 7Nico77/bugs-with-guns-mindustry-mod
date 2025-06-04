@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "piroken melter"
+description: "melts piroken to be shaped"
+category: "crafting"
+size: 2
+health: 60
+itemCapacity: 20
+hasLiquids: true
+liquidCapacity: 5
+outputLiquid: molt-pk/5
+menu: simple
+requirements: [
+refi-pk/15
+fc/2
+]
+craftTime: 200
+consumes: {
+items: [
+refi-pk/2
+]
+power: 0.1
+}
+research: {
+  planet: 1-1-kooper
+  parent: pk-refine
+  requirements: [
+  refi-pk/10
+  ]
+}
