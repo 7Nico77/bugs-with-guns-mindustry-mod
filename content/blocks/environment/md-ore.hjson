@@ -1,0 +1,5 @@
+type: OreBlock
+variants: 2
+itemDrop: "md"
+name: "md-ore"
+hasShadow: false
