@@ -1,0 +1,51 @@
+type: mech
+name: medium bug
+description: bigger bug bigger gub
+omniMovement: true
+faceTarget: false
+outlineColor: 8E665CFF
+speed: 0.8
+rotateSpeed: 2
+groundLayer: 60
+health: 100
+armor: 0
+hitSize: 20
+outlineRadius: 0.4
+itemCapacity: 4
+weapons: [
+ {
+  name: mb-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: shotgun
+  inaccuracy: 5
+  reload: 50
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 9
+   height: 9
+   damage: 5
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   splashDamage: 2
+   splashDamageRadius: 20
+   speed: 10
+   lifetime: 20
+   trailWidth: 1
+   trailLength: 8
+   frontColor: ff0000
+   backColor: ff0000
+   trailColor: fff459
+   }
+  }
+]
