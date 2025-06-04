@@ -43,7 +43,7 @@ type: ShootSpread
 }
 research: {
   planet: 1-1-kooper
-  parent: burner-trt
+  parent: grinder
   requirements: [
     pk/100
   ]
