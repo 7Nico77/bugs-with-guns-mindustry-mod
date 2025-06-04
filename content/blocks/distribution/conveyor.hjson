@@ -1,0 +1,17 @@
+type: "Conveyor",
+name: "conveyor"
+category: "distribution",
+health: 10,
+speed: 0.04,
+displayedSpeed: 0.04,
+requirements: [
+refi-pk/1
+]
+junctionReplacement: Bjunction
+research: {
+  planet: 1-1-kooper
+  parent: burner-drl
+  requirements: [
+    refi-pk/5
+  ]
+    }
