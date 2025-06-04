@@ -1,0 +1,42 @@
+type: "ItemTurret"
+name: "grinder"
+description: "fires 4 shots at close range. best in groups!! (like everything)"
+category: "turret"
+size: 1
+shootY: 10
+requirements: [ 
+pk-plate/4
+]
+consumes: {
+power: 0.02
+}
+itemCapacity: 10
+range: 50
+reload: 40
+recoil: 2
+health: 40
+outlineRadius: 0
+targetsAir: false
+shoot: {
+type: ShootSpread
+  spread: 5
+    shots: 4
+}
+ammoTypes: {
+pk-am: {
+ammoMultiplier: 2
+damage: 4
+height: 9
+speed: 4
+width: 3
+lifetime: 20
+inaccuracy: 10
+}
+}
+research: {
+  planet: 1-1-kooper
+  parent: burner-trt
+  requirements: [
+    pk/100
+  ]
+}
