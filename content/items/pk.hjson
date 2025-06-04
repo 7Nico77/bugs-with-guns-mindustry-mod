@@ -1,0 +1,6 @@
+name: "piroken"
+hardness: 1
+research: {
+  planet: 1-1-kooper
+  parent: escape-pod
+}
